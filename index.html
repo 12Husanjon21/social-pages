@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Admin</title>
+    <link rel="shortcut icon" href="./images/islom.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- <script defer src="./main.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+<link rel="shortcut icon" href="./images/Islom.uz_logo.png" type="image/x-icon">
+<!-- <link rel="shortcut icon" href="./images/Islom.uz_logo.png" type="image/x-icon"> -->
+
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <span class="material-symbols-outlined"><span class="material-symbols-outlined">
+                phone_callback
+                </span></span>
+            <p>+998-91-019-47-44</p>
+        </div>
+        <div class="center-header">
+            <p> Create your own products </p>
+            <span></span>
+            <a href="#">Craete now</a>
+        </div>
+        <div class="rigth-header">
+            <div class="a">
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+                <a href="#">English</a>
+            </div>
+            <div class="a">
+                <!-- <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+                <a href="#">Location</a> -->
+                <button id="logout-btn" class="small_btn">Logout</button>
+            </div>
+        </div>
+        <!-- <button id="logout-btn">log out</button> -->
+    </header>
+
+    <main>
+        <h1>Admin</h1>
+        <h5>Create Product</h5>
+
+        <div class="main-wrapper">
+            <!-- <main> -->
+              <div id="app">
+                <form>
+                  <div class="form-control">
+                    <label for="title">Product title:</label>
+                    <input  type="text" name="title" id="title" placeholder="Type here">
+                  </div>
+        
+                  <div class="form-control">
+                    <label for="price">Product price:</label>
+                    <input placeholder="Type here"  type="number" name="price" id="price">
+                  </div>
+        
+                  <div class="form-control">
+                    <label style="display: block;" for="description">Product description:</label>
+                    <textarea placeholder="Type here" rows="3" name="description" id="description"></textarea>
+                  </div>
+        
+                  <button id="add-btn" type="submit">Add</button>
+                </form>
+              </div>
+              <ul class="container"></ul>
+            <!-- </main> -->
+          </div>
+
+
+        
+
+    </main>
+
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
