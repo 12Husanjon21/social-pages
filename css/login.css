@@ -257,13 +257,18 @@ hr {
     background-color: #01d51e;
 }
 
+*::placeholder {
+    font-size: 1.4rem;
+}
 
 .visibility-btn {
     color: #000000;
     position: absolute;
     background: transparent;
-    right: 725px;
-    bottom: 452px;
+    right: 233px;
+    bottom: 112px;
+    /* right: 770px;
+    bottom: 747px; */
     border: none;
     cursor: pointer;
 }
