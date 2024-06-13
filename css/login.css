@@ -263,12 +263,13 @@ hr {
 
 .visibility-btn {
     color: #000000;
-    position: absolute;
+    /* position: absolute; */
     background: transparent;
-    right: 233px;
-    bottom: 112px;
+    /* right: 233px;
+    bottom: 112px; */
     /* right: 770px;
     bottom: 747px; */
+    margin-left: -30px;
     border: none;
     cursor: pointer;
 }
@@ -276,4 +277,10 @@ hr {
 .visibility-btn span {
     font-size: xx-large;
     color: var(--green-2);
+}
+
+
+.vis_input {
+    display: flex;
+    
 }
