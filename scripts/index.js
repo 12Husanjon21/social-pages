@@ -73,7 +73,7 @@ form.onsubmit = (event) => {
   title.value = "";
   price.value = "";
   description.value = "";
-  add_btn.disabled = true
+  // add_btn.disabled = true
 
   if (validateProduct(newProduct)) {
     products.push(newProduct);
